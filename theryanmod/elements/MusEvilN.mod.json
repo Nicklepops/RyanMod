@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "mus_eviln_2",
+    "description": "Evil Individual",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:mus_eviln"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

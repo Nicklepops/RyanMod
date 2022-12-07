@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "mus_blocksburg",
+    "description": "I Walk Around On That Blocksburg",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:mus_blocksburg"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

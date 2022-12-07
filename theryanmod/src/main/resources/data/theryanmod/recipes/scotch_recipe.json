@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potion"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "theryanmod:scotch",
+    "count": 3
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "ryan_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "theryanmod:ryan_death",
+        "stream": false
+      }
+    ]
+  },
+  "ryan_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "theryanmod:ryan_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "car_living": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "theryanmod:car_living",
+        "stream": false
+      }
+    ]
+  },
+  "car_living_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "theryanmod:car_living_v2",
+        "stream": false
+      }
+    ]
+  },
+  "mus_boner": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:boner_mus",
+        "stream": true
+      }
+    ]
+  },
+  "mus_sex2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:sex2_mus",
+        "stream": true
+      }
+    ]
+  },
+  "mus_cbat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:mus_cbat",
+        "stream": true
+      }
+    ]
+  },
+  "cave_ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "theryanmod:cave_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "mus_eviln": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:eviln_mus",
+        "stream": true
+      }
+    ]
+  },
+  "mus_pizza": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:mus_pizza",
+        "stream": true
+      }
+    ]
+  },
+  "mus_blocksburg": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:mus_blocksburg",
+        "stream": true
+      }
+    ]
+  },
+  "mus_monkey": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "theryanmod:mus_monkeytrap",
+        "stream": true
+      }
+    ]
+  },
+  "ryan_living": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "theryanmod:ryan_ah2",
+        "stream": false
+      },
+      {
+        "name": "theryanmod:ryan_fart",
+        "stream": false
+      },
+      {
+        "name": "theryanmod:ryan_hic",
+        "stream": false
+      },
+      {
+        "name": "theryanmod:ryan_kys",
+        "stream": false
+      },
+      {
+        "name": "theryanmod:ryan_slinky",
+        "stream": false
+      }
+    ]
+  }
+}

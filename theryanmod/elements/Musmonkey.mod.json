@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "mus_monkey",
+    "description": "Monkey Trap",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:mus_monkey"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ryan",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan"
+    },
+    {
+      "name": "RyanItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RyanEntityDies",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RyanPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RyanEntityFalls",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_entity_falls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rawitaliansausage",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawitaliansausage"
+    },
+    {
+      "name": "ItalianSausage",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "italian_sausage"
+    },
+    {
+      "name": "ItalianSausageSmelt",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "italian_sausage_smelt"
+    },
+    {
+      "name": "Car",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "car"
+    },
+    {
+      "name": "CarEntityDies",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarSpawnerRightClickInAir",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_spawner_right_click_in_air",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CarSpawnerRightClickOnBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_spawner_right_click_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scotch",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scotch"
+    },
+    {
+      "name": "ScotchRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scotch_recipe"
+    },
+    {
+      "name": "RyanGiveScotch",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_give_scotch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ExplodeWhenTouch",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode_when_touch",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CarOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RyanCar",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_car"
+    },
+    {
+      "name": "RyanCarPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_car_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RyanCarEntityDies",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_car_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RyanCarItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_car_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusEvilN",
+      "type": "musicdisc",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mus_evil_n"
+    },
+    {
+      "name": "Muspizza",
+      "type": "musicdisc",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muspizza"
+    },
+    {
+      "name": "GoldenItalianSausage",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_italian_sausage"
+    },
+    {
+      "name": "GoldenItalianSausageRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_italian_sausage_recipe"
+    },
+    {
+      "name": "GoldenItalianSausagePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_italian_sausage_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Musmonkey",
+      "type": "musicdisc",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musmonkey"
+    },
+    {
+      "name": "Musblocksburg",
+      "type": "musicdisc",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musblocksburg"
+    },
+    {
+      "name": "Muscbat",
+      "type": "musicdisc",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muscbat"
+    },
+    {
+      "name": "RyanOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryan_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "entitytarget",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "ryan_death",
+      "files": [
+        "ryan_death"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "ryan_hurt",
+      "files": [
+        "ryan_hurt"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "car_living",
+      "files": [
+        "car_living"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "car_living_2",
+      "files": [
+        "car_living_v2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_boner",
+      "files": [
+        "boner_mus"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_sex2",
+      "files": [
+        "sex2_mus"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_cbat",
+      "files": [
+        "mus_cbat"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "cave_ambient",
+      "files": [
+        "cave_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_eviln",
+      "files": [
+        "eviln_mus"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_pizza",
+      "files": [
+        "mus_pizza"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_blocksburg",
+      "files": [
+        "mus_blocksburg"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "mus_monkey",
+      "files": [
+        "mus_monkeytrap"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "ryan_living",
+      "files": [
+        "ryan_ah2",
+        "ryan_fart",
+        "ryan_hic",
+        "ryan_kys",
+        "ryan_slinky"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.mus_blocksburg": "",
+      "item.theryanmod.musmonkey.desc": "Monkey Trap",
+      "subtitles.ryan_hurt": "",
+      "subtitles.mus_cbat": "",
+      "subtitles.mus_monkey": "",
+      "item.theryanmod.car_spawn_egg": "Car Spawn Egg",
+      "subtitles.car_living": "",
+      "item.theryanmod.musblocksburg.desc": "I Walk Around On That Blocksburg",
+      "subtitles.cave_ambient": "",
+      "subtitles.ryan_ambient": "",
+      "item.theryanmod.mus_evil_n.desc": "Evil Individual",
+      "item.theryanmod.muscbat.desc": "CBAT (funni reddit song)",
+      "item.theryanmod.scotch": "Scotch",
+      "subtitles.mus_pizza": "",
+      "entity.theryanmod.car": "Car",
+      "subtitles.ryan_living": "",
+      "item.theryanmod.musblocksburg": "Music Disc",
+      "subtitles.mus_jewish": "",
+      "item.theryanmod.muspizza": "Music Disc",
+      "death.attack.ryan.player": "%s was smothered by Ryan\u0027s giant fat italian ass",
+      "item.theryanmod.ryan_car_spawn_egg": "RyanCar Spawn Egg",
+      "subtitles.mus_eviln": "",
+      "item.theryanmod.mus_evil_n": "Music Disc",
+      "subtitles.mus_boner": "",
+      "subtitles.car_living_2": "",
+      "subtitles.ryan_ambient_2": "",
+      "entity.theryanmod.ryan_car": "RyanCar",
+      "item.theryanmod.italian_sausage": "Italian Sausage",
+      "item.theryanmod.musmonkey": "Music Disc",
+      "item.theryanmod.ryan_spawn_egg": "Ryan Spawn Egg",
+      "subtitles.ryan_ambient2": "",
+      "death.attack.ryan": "%s was smothered by Ryan\u0027s giant fat italian ass",
+      "item.theryanmod.muscbat": "Music Disc",
+      "entity.theryanmod.ryan": "Ryan",
+      "item.theryanmod.rawitaliansausage": "Raw Italian Sausage",
+      "subtitles.mus_sex2": "",
+      "subtitles.ryan_death": "",
+      "item.theryanmod.muspizza.desc": "Italy Theme",
+      "item.theryanmod.golden_italian_sausage": "Golden Italian Sausage"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "theryanmod",
+    "modName": "theryanmod",
+    "version": "1.0.0",
+    "author": "Harrison, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.theryanmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

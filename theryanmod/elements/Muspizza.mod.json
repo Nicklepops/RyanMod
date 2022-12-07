@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "music_disc_pizza",
+    "description": "Italy Theme",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:mus_pizza"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

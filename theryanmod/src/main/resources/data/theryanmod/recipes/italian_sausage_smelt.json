@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 60,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "theryanmod:rawitaliansausage"
+  },
+  "result": {
+    "item": "theryanmod:italian_sausage"
+  }
+}
